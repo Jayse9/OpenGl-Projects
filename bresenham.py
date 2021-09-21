@@ -8,7 +8,7 @@ def init():
 
 def plot(x1,x2,y1,y2):
     m=(y2-y1)/(x2-x1)
-    if (m<1):
+    if(m<1):
         c=2*(y2-y1)
         pk=c-(x2-x1)
     else:
